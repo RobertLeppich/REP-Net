@@ -1,0 +1,4 @@
+torch~=2.1.1
+lightning~=2.0.7
+PyYAML~=6.0.1
+pandas~=2.0.3

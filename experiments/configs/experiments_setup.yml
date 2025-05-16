@@ -1,0 +1,24 @@
+
+
+
+# Training
+lr_optimizer: true
+learning_rate: 0.001
+weight_decay: 0.00001
+batch_size: 16
+shuffle: true
+shuffle_seed: 42
+
+embed: timeF
+
+# Model
+revin: true
+
+# Loss
+
+# Early stopping
+earlystopping_patience: 4
+earlystopping_min_delta: .1
+earlystopping_percentage: True
+
+loss_function_forecasting: huber
