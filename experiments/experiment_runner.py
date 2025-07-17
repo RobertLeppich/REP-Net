@@ -25,7 +25,7 @@ class ExperimentRun:
 
         # load default experimental setup
         if exp_base_config is None:
-            exp_base_config = yaml.safe_load(open("experiments/configs/experiments_setup.yaml", "r"))
+            exp_base_config = yaml.safe_load(open("experiments/configs/experiments_setup.yml", "r"))
 
         # update task specific config
         config.update(exp_base_config)

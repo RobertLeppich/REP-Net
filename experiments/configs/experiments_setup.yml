@@ -1,5 +1,7 @@
 
-
+label_len: 0
+task: forecasting
+phase: downstream
 
 # Training
 lr_optimizer: true
